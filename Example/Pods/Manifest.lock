@@ -1,5 +1,5 @@
 PODS:
-  - FZAlertGenerator (0.1.0)
+  - FZAlertGenerator (0.0.1)
 
 DEPENDENCIES:
   - FZAlertGenerator (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FZAlertGenerator: e10ae428d1fb83c19deaf59f03adf91f8fecd443
+  FZAlertGenerator: dcc2799e5a42ec8f8e9e185e4ba62f2e1d9371de
 
 PODFILE CHECKSUM: 79aad3ae17c1c64123283e041131235377a66791
 

@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "FZAlertGenerator.h"
 
 FOUNDATION_EXPORT double FZAlertGeneratorVersionNumber;
 FOUNDATION_EXPORT const unsigned char FZAlertGeneratorVersionString[];

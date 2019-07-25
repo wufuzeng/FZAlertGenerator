@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01B22AC305AE6517172AD3A0DA2C7947 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		0F9AE7DA91D37A9B3C4E0C335D1FFA55 /* Pods-FZAlertGenerator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC94EC436A765E311A2789D9F6C4A8E8 /* Pods-FZAlertGenerator_Tests-dummy.m */; };
+		2B397BBE4B05A60C41F42F84E1DDE7A3 /* FZAlertGenerator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 537B26F4E8E03273C2CC3B1FDA17755D /* FZAlertGenerator-dummy.m */; };
+		2D8EEDB0982A6155C75D6927806C9C66 /* FZAlertGenerator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E350D8B5905A2AC4B91A8AAF2D42C21 /* FZAlertGenerator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3933E0167BCBFB3D880CF65ACAC029D7 /* Pods-FZAlertGenerator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43E2D4F7D39647A80C64D7BD910645CD /* Pods-FZAlertGenerator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5FCB46E221920FE8BF0CDC2140D2212C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		608469F922E9931D00A6021E /* FZAlertGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 608469F722E9931D00A6021E /* FZAlertGenerator.h */; };
-		608469FA22E9931D00A6021E /* FZAlertGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 608469F822E9931D00A6021E /* FZAlertGenerator.m */; };
+		56FB9396A23820B56E748AC91F7CB1EB /* FZAlertGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F195CADE14FFB54D28B9BE518A3CABE /* FZAlertGenerator.m */; };
+		608469FD22E9955E00A6021E /* UIAlertAction+FZAlertGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 608469FB22E9955E00A6021E /* UIAlertAction+FZAlertGenerator.h */; };
+		608469FE22E9955E00A6021E /* UIAlertAction+FZAlertGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 608469FC22E9955E00A6021E /* UIAlertAction+FZAlertGenerator.m */; };
 		608A00B0BF018DD9B182571CD252781C /* Pods-FZAlertGenerator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E01FF640FAB9492B6BAC201BB738D185 /* Pods-FZAlertGenerator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		71C6DA5D9308E44D8F22862147CD2F04 /* Pods-FZAlertGenerator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA23D2EEC11FEF4F1E6C972A91A46B /* Pods-FZAlertGenerator_Example-dummy.m */; };
 		7ADA430280AA5D569847879F63117BC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		8285E70E28EC53B744892584FF789F06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		AA06561A4F939D4067F84328DD000BB5 /* FZAlertGenerator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A22A34A990173995784D7A5BBC434062 /* FZAlertGenerator-dummy.m */; };
-		E3741268DB1242591B04A32EBF618ED5 /* FZAlertGenerator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4113CE558A8B9A5EF709454834FB7416 /* FZAlertGenerator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F0B3C0939389F9A6A38CB23D479AE42 /* FZAlertGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = C8EEFADF2932E4073CBFDBE2D34AB47D /* FZAlertGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,33 +40,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2102CA8EC714F624CA7E2D367549308B /* FZAlertGenerator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FZAlertGenerator.modulemap; sourceTree = "<group>"; };
+		068337B4441117C813383EF96A433141 /* FZAlertGenerator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FZAlertGenerator-Info.plist"; sourceTree = "<group>"; };
+		1DE0CC2E98FDB1BE5B716C2069FDE218 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2287C470072DA96AA34F6576EC52D807 /* Pods-FZAlertGenerator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZAlertGenerator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		27D1E5EE14D342841978DBFC14A74F6B /* FZAlertGenerator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FZAlertGenerator-prefix.pch"; sourceTree = "<group>"; };
-		31724F242E986591177DE0E5C708AE91 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2AB821E364756739151071F918884EC9 /* FZAlertGenerator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FZAlertGenerator.xcconfig; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3621BDC71F4F8B1411075CDDF04B5A43 /* Pods-FZAlertGenerator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZAlertGenerator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		363FB82635CB32F43A860A32F7E27529 /* Pods-FZAlertGenerator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FZAlertGenerator_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3787DE37BC1ED8DD42E303F5CE8BDD9D /* FZAlertGenerator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FZAlertGenerator.xcconfig; sourceTree = "<group>"; };
 		3A19242156905977EF0AF97BDDCE2070 /* Pods-FZAlertGenerator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FZAlertGenerator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4113CE558A8B9A5EF709454834FB7416 /* FZAlertGenerator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FZAlertGenerator-umbrella.h"; sourceTree = "<group>"; };
 		43E2D4F7D39647A80C64D7BD910645CD /* Pods-FZAlertGenerator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FZAlertGenerator_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4C7C57D2DDFC82F7466CBAAF4385C850 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4CAA23D2EEC11FEF4F1E6C972A91A46B /* Pods-FZAlertGenerator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FZAlertGenerator_Example-dummy.m"; sourceTree = "<group>"; };
-		597E54BB5D9F448C90A71E9305FB4881 /* FZAlertGenerator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FZAlertGenerator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		608469F722E9931D00A6021E /* FZAlertGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FZAlertGenerator.h; path = FZAlertGenerator/Classes/FZAlertGenerator.h; sourceTree = "<group>"; };
-		608469F822E9931D00A6021E /* FZAlertGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FZAlertGenerator.m; path = FZAlertGenerator/Classes/FZAlertGenerator.m; sourceTree = "<group>"; };
+		537B26F4E8E03273C2CC3B1FDA17755D /* FZAlertGenerator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FZAlertGenerator-dummy.m"; sourceTree = "<group>"; };
+		608469FB22E9955E00A6021E /* UIAlertAction+FZAlertGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIAlertAction+FZAlertGenerator.h"; path = "FZAlertGenerator/Classes/UIAlertAction+FZAlertGenerator.h"; sourceTree = "<group>"; };
+		608469FC22E9955E00A6021E /* UIAlertAction+FZAlertGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIAlertAction+FZAlertGenerator.m"; path = "FZAlertGenerator/Classes/UIAlertAction+FZAlertGenerator.m"; sourceTree = "<group>"; };
 		6A90B6B636BB9F229A31E1A40875BA42 /* Pods-FZAlertGenerator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZAlertGenerator_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6F331FA01791E16D36F1E1A3886395F2 /* FZAlertGenerator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FZAlertGenerator-Info.plist"; sourceTree = "<group>"; };
+		6E58808DA194C428AB0B87E2D6FDA36D /* FZAlertGenerator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FZAlertGenerator-prefix.pch"; sourceTree = "<group>"; };
 		7160990FBD85DCA7D084E896549B046D /* Pods-FZAlertGenerator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FZAlertGenerator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8A24A5A2BD0387F0D9F702D0286D070C /* Pods_FZAlertGenerator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FZAlertGenerator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B1DF016859569A7ED8C61D735A78F64 /* Pods-FZAlertGenerator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FZAlertGenerator_Tests.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A22A34A990173995784D7A5BBC434062 /* FZAlertGenerator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FZAlertGenerator-dummy.m"; sourceTree = "<group>"; };
+		9E350D8B5905A2AC4B91A8AAF2D42C21 /* FZAlertGenerator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FZAlertGenerator-umbrella.h"; sourceTree = "<group>"; };
+		9F195CADE14FFB54D28B9BE518A3CABE /* FZAlertGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FZAlertGenerator.m; path = FZAlertGenerator/Classes/FZAlertGenerator.m; sourceTree = "<group>"; };
+		A6C9EAE0F7A3CB3008EB55D3C1AE31E1 /* FZAlertGenerator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FZAlertGenerator.modulemap; sourceTree = "<group>"; };
 		AC94EC436A765E311A2789D9F6C4A8E8 /* Pods-FZAlertGenerator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FZAlertGenerator_Tests-dummy.m"; sourceTree = "<group>"; };
 		AF0E3050B9459A235540630C3E3799E8 /* Pods-FZAlertGenerator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZAlertGenerator_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B52C032E01F5CE355E51C366458F397F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B7542B65537AF869B1EF6BF28F72776C /* Pods-FZAlertGenerator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZAlertGenerator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C47CF8C07DD811B39301EDBC5B4B0874 /* Pods-FZAlertGenerator_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZAlertGenerator_Example-Info.plist"; sourceTree = "<group>"; };
+		C539E6F59775F259DB5C33E253A98E8B /* FZAlertGenerator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FZAlertGenerator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C8EEFADF2932E4073CBFDBE2D34AB47D /* FZAlertGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FZAlertGenerator.h; path = FZAlertGenerator/Classes/FZAlertGenerator.h; sourceTree = "<group>"; };
 		D17243D5AE47B25BF33D2B98E2061C03 /* FZAlertGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FZAlertGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5F76C73CC858229E8917F9200F83510 /* Pods-FZAlertGenerator_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZAlertGenerator_Tests-Info.plist"; sourceTree = "<group>"; };
 		E01FF640FAB9492B6BAC201BB738D185 /* Pods-FZAlertGenerator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FZAlertGenerator_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -74,11 +78,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		44C36F1418314F939D32075A19861D6A /* Frameworks */ = {
+		02AA2D0E366DD4724D280582B9301D25 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FCB46E221920FE8BF0CDC2140D2212C /* Foundation.framework in Frameworks */,
+				01B22AC305AE6517172AD3A0DA2C7947 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,14 +105,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0468585F922506EB41A356E5FD3C984F /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				17F7CFF8E85E197E6AA43E03EB100B45 /* FZAlertGenerator */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		11D84B3B213949FD78D0FFE08655EF6B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,13 +114,37 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		17F7CFF8E85E197E6AA43E03EB100B45 /* FZAlertGenerator */ = {
+		2AA9DB340DD0F3D9DE73FDCB1E37E1FC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				608469F722E9931D00A6021E /* FZAlertGenerator.h */,
-				608469F822E9931D00A6021E /* FZAlertGenerator.m */,
-				6E2581B96CDA8319DC8CF003E42623DA /* Pod */,
-				E50A7375B6A0FBA0F6A87D69A6CA6EFD /* Support Files */,
+				A6C9EAE0F7A3CB3008EB55D3C1AE31E1 /* FZAlertGenerator.modulemap */,
+				2AB821E364756739151071F918884EC9 /* FZAlertGenerator.xcconfig */,
+				537B26F4E8E03273C2CC3B1FDA17755D /* FZAlertGenerator-dummy.m */,
+				068337B4441117C813383EF96A433141 /* FZAlertGenerator-Info.plist */,
+				6E58808DA194C428AB0B87E2D6FDA36D /* FZAlertGenerator-prefix.pch */,
+				9E350D8B5905A2AC4B91A8AAF2D42C21 /* FZAlertGenerator-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FZAlertGenerator";
+			sourceTree = "<group>";
+		};
+		2CB06A697546DEAB6E6BDCBEDDB76B0A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48285D8B58F281B0340D48940B66CA3B /* FZAlertGenerator */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		48285D8B58F281B0340D48940B66CA3B /* FZAlertGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				C8EEFADF2932E4073CBFDBE2D34AB47D /* FZAlertGenerator.h */,
+				9F195CADE14FFB54D28B9BE518A3CABE /* FZAlertGenerator.m */,
+				608469FB22E9955E00A6021E /* UIAlertAction+FZAlertGenerator.h */,
+				608469FC22E9955E00A6021E /* UIAlertAction+FZAlertGenerator.m */,
+				9737F23AF2348518F1E7ED8D3A9F372D /* Pod */,
+				2AA9DB340DD0F3D9DE73FDCB1E37E1FC /* Support Files */,
 			);
 			name = FZAlertGenerator;
 			path = ../..;
@@ -146,12 +166,12 @@
 			path = "Target Support Files/Pods-FZAlertGenerator_Tests";
 			sourceTree = "<group>";
 		};
-		6E2581B96CDA8319DC8CF003E42623DA /* Pod */ = {
+		9737F23AF2348518F1E7ED8D3A9F372D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				597E54BB5D9F448C90A71E9305FB4881 /* FZAlertGenerator.podspec */,
-				31724F242E986591177DE0E5C708AE91 /* LICENSE */,
-				B52C032E01F5CE355E51C366458F397F /* README.md */,
+				C539E6F59775F259DB5C33E253A98E8B /* FZAlertGenerator.podspec */,
+				4C7C57D2DDFC82F7466CBAAF4385C850 /* LICENSE */,
+				1DE0CC2E98FDB1BE5B716C2069FDE218 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -195,7 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				0468585F922506EB41A356E5FD3C984F /* Development Pods */,
+				2CB06A697546DEAB6E6BDCBEDDB76B0A /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				C292FAD3256B65F314E6B3EE7BE7805F /* Products */,
 				11D84B3B213949FD78D0FFE08655EF6B /* Targets Support Files */,
@@ -208,20 +228,6 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E50A7375B6A0FBA0F6A87D69A6CA6EFD /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2102CA8EC714F624CA7E2D367549308B /* FZAlertGenerator.modulemap */,
-				3787DE37BC1ED8DD42E303F5CE8BDD9D /* FZAlertGenerator.xcconfig */,
-				A22A34A990173995784D7A5BBC434062 /* FZAlertGenerator-dummy.m */,
-				6F331FA01791E16D36F1E1A3886395F2 /* FZAlertGenerator-Info.plist */,
-				27D1E5EE14D342841978DBFC14A74F6B /* FZAlertGenerator-prefix.pch */,
-				4113CE558A8B9A5EF709454834FB7416 /* FZAlertGenerator-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FZAlertGenerator";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,12 +249,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E4F104A5D3AF8BCCA9C20352748135A /* Headers */ = {
+		DC4AC9222F9CB5A485672CD21E27C61C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3741268DB1242591B04A32EBF618ED5 /* FZAlertGenerator-umbrella.h in Headers */,
-				608469F922E9931D00A6021E /* FZAlertGenerator.h in Headers */,
+				2D8EEDB0982A6155C75D6927806C9C66 /* FZAlertGenerator-umbrella.h in Headers */,
+				608469FD22E9955E00A6021E /* UIAlertAction+FZAlertGenerator.h in Headers */,
+				8F0B3C0939389F9A6A38CB23D479AE42 /* FZAlertGenerator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,12 +302,12 @@
 		};
 		9AF91BB82A3FD0345065331CD73DBBFC /* FZAlertGenerator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 507F8ADBCEDDD051A606CE8263C20AC3 /* Build configuration list for PBXNativeTarget "FZAlertGenerator" */;
+			buildConfigurationList = B178C91EE1066647E39A35E3795ACCEB /* Build configuration list for PBXNativeTarget "FZAlertGenerator" */;
 			buildPhases = (
-				8E4F104A5D3AF8BCCA9C20352748135A /* Headers */,
-				5B7468C8948966982E368C160C253D4D /* Sources */,
-				44C36F1418314F939D32075A19861D6A /* Frameworks */,
-				12E59F49DBB9A48D47AC2A18423890C6 /* Resources */,
+				DC4AC9222F9CB5A485672CD21E27C61C /* Headers */,
+				7CAE7B57B6DC869BEA05842418F4A181 /* Sources */,
+				02AA2D0E366DD4724D280582B9301D25 /* Frameworks */,
+				62A171EACC2024AB4EFA8B3D65D9C221 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -340,7 +347,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		12E59F49DBB9A48D47AC2A18423890C6 /* Resources */ = {
+		62A171EACC2024AB4EFA8B3D65D9C221 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -372,12 +379,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B7468C8948966982E368C160C253D4D /* Sources */ = {
+		7CAE7B57B6DC869BEA05842418F4A181 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA06561A4F939D4067F84328DD000BB5 /* FZAlertGenerator-dummy.m in Sources */,
-				608469FA22E9931D00A6021E /* FZAlertGenerator.m in Sources */,
+				2B397BBE4B05A60C41F42F84E1DDE7A3 /* FZAlertGenerator-dummy.m in Sources */,
+				56FB9396A23820B56E748AC91F7CB1EB /* FZAlertGenerator.m in Sources */,
+				608469FE22E9955E00A6021E /* UIAlertAction+FZAlertGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,37 +481,6 @@
 			};
 			name = Debug;
 		};
-		43C8EAF20436C3B04AD33A0F48F27EE5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3787DE37BC1ED8DD42E303F5CE8BDD9D /* FZAlertGenerator.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FZAlertGenerator/FZAlertGenerator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FZAlertGenerator/FZAlertGenerator-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FZAlertGenerator/FZAlertGenerator.modulemap";
-				PRODUCT_MODULE_NAME = FZAlertGenerator;
-				PRODUCT_NAME = FZAlertGenerator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -563,9 +540,9 @@
 			};
 			name = Release;
 		};
-		5163B8FC9925AA0782E4D4B4ED5FF3EA /* Release */ = {
+		568E749D3B97DEF9BC5E223CE600ED52 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3787DE37BC1ED8DD42E303F5CE8BDD9D /* FZAlertGenerator.xcconfig */;
+			baseConfigurationReference = 2AB821E364756739151071F918884EC9 /* FZAlertGenerator.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -589,11 +566,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -693,6 +669,38 @@
 			};
 			name = Release;
 		};
+		CA8D1BB500C7CFFB78B46237B64D8741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AB821E364756739151071F918884EC9 /* FZAlertGenerator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FZAlertGenerator/FZAlertGenerator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FZAlertGenerator/FZAlertGenerator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FZAlertGenerator/FZAlertGenerator.modulemap";
+				PRODUCT_MODULE_NAME = FZAlertGenerator;
+				PRODUCT_NAME = FZAlertGenerator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		D368CB98068291E86A66FFC4398566F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6A90B6B636BB9F229A31E1A40875BA42 /* Pods-FZAlertGenerator_Example.release.xcconfig */;
@@ -739,11 +747,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		507F8ADBCEDDD051A606CE8263C20AC3 /* Build configuration list for PBXNativeTarget "FZAlertGenerator" */ = {
+		B178C91EE1066647E39A35E3795ACCEB /* Build configuration list for PBXNativeTarget "FZAlertGenerator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				43C8EAF20436C3B04AD33A0F48F27EE5 /* Debug */,
-				5163B8FC9925AA0782E4D4B4ED5FF3EA /* Release */,
+				568E749D3B97DEF9BC5E223CE600ED52 /* Debug */,
+				CA8D1BB500C7CFFB78B46237B64D8741 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
