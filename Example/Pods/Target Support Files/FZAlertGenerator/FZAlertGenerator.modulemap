@@ -1,0 +1,6 @@
+framework module FZAlertGenerator {
+  umbrella header "FZAlertGenerator-umbrella.h"
+
+  export *
+  module * { export * }
+}

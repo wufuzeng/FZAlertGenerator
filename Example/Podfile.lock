@@ -1,0 +1,16 @@
+PODS:
+  - FZAlertGenerator (0.1.0)
+
+DEPENDENCIES:
+  - FZAlertGenerator (from `../`)
+
+EXTERNAL SOURCES:
+  FZAlertGenerator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FZAlertGenerator: e10ae428d1fb83c19deaf59f03adf91f8fecd443
+
+PODFILE CHECKSUM: 79aad3ae17c1c64123283e041131235377a66791
+
+COCOAPODS: 1.7.4
