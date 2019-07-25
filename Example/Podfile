@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'FZAlertGenerator_Example' do
+  pod 'FZAlertGenerator', :path => '../'
+
+  target 'FZAlertGenerator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
