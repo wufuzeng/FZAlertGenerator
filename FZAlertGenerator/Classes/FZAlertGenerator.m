@@ -6,7 +6,7 @@
 //
 
 #import "FZAlertGenerator.h"
-#import "UIAlertAction+FZAlertGenerator.h"
+
 @implementation FZAlertGenerator
 
 + (void)makeAlertWithTitle:(NSString *)title message:(NSString *)message duration:(CGFloat)duration{

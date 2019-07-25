@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "UIAlertAction+FZAlertGenerator.h"
 
 typedef NS_ENUM(NSInteger,FZAlertPosition){
     FZAlertPositionCenter = 0,
